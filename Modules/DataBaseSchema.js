@@ -21,6 +21,13 @@ function seeds(){
         Chars:[]
     })
     user1.save();
+
+    const user2=new Users({
+        email:'roaa.abualeeqa@gmail.com',
+        Chars:[]
+    })
+    user2.save();
+
 }
 
 seeds();
